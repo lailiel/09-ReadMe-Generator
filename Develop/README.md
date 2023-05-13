@@ -1,22 +1,22 @@
-## b
+## c
 
-  b
+  c
   
 ## Table of Contents
 
-  1. [Installation](#install)
+  1. [Installation](#installation)
   2. [Usage](#usage)
   3. [License](#license)
   4. [Contribution](#contribution)
-  5. [Testing](#test)
+  5. [Testing](#testing)
 
 ## Installation
 
-  b
+  c
 
 ## Usage
 
-  b
+  c
 
 ## License
 
@@ -24,11 +24,11 @@
 
 ## Contribution
 
-  b
+  c
 
 ## Testing
 
-  b
+  c
 
 ## Contacts
-  Email me at [b](mailto:b) or explore more projects at[b](https://www.github.com/b)
+  Email me at [c](mailto:c) or explore more projects at[c](https://www.github.com/c)
