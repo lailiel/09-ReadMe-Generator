@@ -1,9 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license == "MIT") 
+  if (license == "None") 
+  return ""
+  else 
   return `![${license}](https://img.shields.io/badge/license-${license}-blue)`
-  else return ""
+  
 }
 
 
@@ -29,12 +31,12 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
  const badge = renderLicenseBadge(license)
  const link = renderLicenseLink(license)
-  if (license == "MIT")
+  if (license == "None")
+  return ""
+  else
    return `${badge}
    \nProject is licensed under ${license}
-   \nread more on [this page](${link})`
-  else 
-   return ""
+   \nRead more on [this page](${link})`
 }
 
 
@@ -43,7 +45,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   const {github, email, project, description, install, usage, license, contribution, test} = data
   const licenseSec = renderLicenseSection(license)
-  return `### ${project}
+  return `## ${project}
 
   ${description}
   

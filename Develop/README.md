@@ -1,6 +1,6 @@
-### c
+## ReadMe Generator
 
-  c
+  A generator for formatted readme markdown files, including title, description, installation, usage, license, contribution and testing information
   
 ## Table of Contents
 
@@ -12,11 +12,11 @@
 
 ## Installation
 
-  c
+  not sure
 
 ## Usage
 
-  c
+  free to use?
 
 ## License
 
@@ -24,15 +24,15 @@
    
 Project is licensed under MIT
    
-read more on [this page](https://opensource.org/license/mit/)
+Read more on [this page](https://opensource.org/license/mit/)
 
 ## Contribution
 
-  c
+  no contributions needed
 
 ## Testing
 
-  c
+  no tests at this time
 
 ## Contacts
-  Email me at [c](mailto:c) or explore more projects at [a](https://www.github.com/a)
+  Email me at [abilivick@gmail.com](mailto:abilivick@gmail.com) or explore more projects at [Abi](https://www.github.com/Abi)
