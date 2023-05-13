@@ -18,7 +18,7 @@ const promptUser = () => {
     },
     {
       type: 'input',
-      message: 'Re-enter What is the title of your project?',
+      message: 'What is the title of your project?',
       name: 'project',
     },
     {
