@@ -32,7 +32,7 @@ function renderLicenseSection(license) {
  const badge = renderLicenseBadge(license)
  const link = renderLicenseLink(license)
   if (license == "None")
-  return ""
+  return "None"
   else
    return `${badge}
    \nProject is licensed under ${license}
@@ -45,7 +45,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   const {github, email, project, description, install, usage, license, contribution, test} = data
   const licenseSec = renderLicenseSection(license)
-  return `## ${project}
+  return `# ${project}
 
   ${description}
   
