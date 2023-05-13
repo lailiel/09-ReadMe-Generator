@@ -31,8 +31,8 @@ function renderLicenseSection(license) {
  const link = renderLicenseLink(license)
   if (license == "MIT")
    return `${badge}
-   Project is licensed under ${license}
-   read more on [this page](${link})`
+   \nProject is licensed under ${license}
+   \nread more on [this page](${link})`
   else 
    return ""
 }
