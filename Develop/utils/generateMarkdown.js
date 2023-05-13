@@ -47,6 +47,8 @@ function generateMarkdown(data) {
   const licenseSec = renderLicenseSection(license)
   return `# ${project}
 
+## Description
+
   ${description}
   
 ## Table of Contents
@@ -77,7 +79,7 @@ function generateMarkdown(data) {
 
   ${test}
 
-## Contacts
+## Questions
   Email me at [${email}](mailto:${email}) or explore more projects at [${github}](https://www.github.com/${github})
 `;
 }
