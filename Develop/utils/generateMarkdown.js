@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   const {github, email, project, description, install, usage, license, contribution, test} = data
   const licenseSec = renderLicenseSection(license)
-  return `## ${project}
+  return `### ${project}
 
   ${description}
   
@@ -62,6 +62,9 @@ function generateMarkdown(data) {
 
 ## License
 
+  this is a test for MIT license stuff
+  [!(https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/license/mit/)
+
   ${licenseSec}
 
 ## Contribution
@@ -73,7 +76,7 @@ function generateMarkdown(data) {
   ${test}
 
 ## Contacts
-  Email me at [${email}](mailto:${email}) or explore more projects at[${github}](https://www.github.com/${github})
+  Email me at [${email}](mailto:${email}) or explore more projects at [${github}](https://www.github.com/${github})
 `;
 }
 
