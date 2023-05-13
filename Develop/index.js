@@ -8,7 +8,7 @@ const promptUser = () => {
     return inquirer.prompt([
     {
       type: 'input',
-      message: 'What is your user name?',
+      message: 'What is your Github user name?',
       name: 'github',
     },
     {

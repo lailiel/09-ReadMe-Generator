@@ -1,4 +1,4 @@
-## ReadMe Generator
+## Readme Generator
 
   A generator for formatted readme markdown files, including title, description, installation, usage, license, contribution and testing information
   
@@ -16,23 +16,19 @@
 
 ## Usage
 
-  free to use?
+  free to use
 
 ## License
 
-  ![MIT](https://img.shields.io/badge/license-MIT-blue)
-   
-Project is licensed under MIT
-   
-Read more on [this page](https://opensource.org/license/mit/)
+  
 
 ## Contribution
 
-  no contributions needed
+  no contributions necessary
 
 ## Testing
 
-  no tests at this time
+  no testing available at this time
 
 ## Contacts
-  Email me at [abilivick@gmail.com](mailto:abilivick@gmail.com) or explore more projects at [Abi](https://www.github.com/Abi)
+  Email me at [abilivick@gmail.com](mailto:abilivick@gmail.com) or explore more projects at [lailiel](https://www.github.com/lailiel)
