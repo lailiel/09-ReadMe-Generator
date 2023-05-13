@@ -5,6 +5,9 @@
 A generator for formatted readme markdown files, including title, description, installation, usage, license, contribution and testing information.
 Note: this Readme was created using the generator.
 
+![Video](./Develop/Assets/ReadmeGeneratorVideo.mp4)
+![Video2](./Develop/Assets/)
+
 ## Table of Contents
 
 1. [Installation](#installation)
