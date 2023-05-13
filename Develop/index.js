@@ -37,6 +37,12 @@ const promptUser = () => {
         name: 'usage',
     },
     {
+        type: 'list',
+        message: 'What kind of license should your project have?',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+        name: 'license',
+      },
+    {
         type: 'input',
         message: 'What are the contribution guidelines?',
         name: 'contribution',
@@ -53,17 +59,8 @@ const promptUser = () => {
 
 
 // TODO: Create a function to write README file
-const generateReadme = ({github, email, project, description, install, usage, contribution, test}) =>
-`This is a test,
-${github}:
-${email}:
-${project}:
-${description}:
-${install}:
-${usage}:
-${contribution}:
-${test}:
-this is the end of the test.`
+
+
 // fill this out with readme format stuff
 
 
@@ -73,7 +70,7 @@ const init = () => {
     promptUser()
       // Use writeFile method imported from fs.promises to use promises instead of
       // a callback function
-      .then((answers) => fs.writeToFile('README.md', generateReadme(answers))) 
+      .then((answers) => fs.writeFile('README.md', markdown({...answers}), (err)=> console.log(err))) 
       .then(() => console.log('Successfully created README'))
       .catch((err) => console.error(err));
   };
